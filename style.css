@@ -1,0 +1,55 @@
+#main{
+    display:inline-block;
+    border: 3px solid  black;
+    border-radius:30px;
+    width:500px;
+    background:linear-gradient(135deg,#06f5b7,#4d7090);
+    text-align:center;
+}
+#city_name{
+    height:30px;
+    width:250px;
+    border-radius:25px;
+    text-align:center;
+    font-size:20px;
+    background-color:#ffffff;
+}
+#mainForm{
+    margin:40px;
+}
+#search{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    margin-left:10px;
+    cursor:pointer;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+}
+.lower img{ /* i.e only for images in lower_div  as it contain img of humidity and wind and they need to be very small so we will set their height and width here.*/
+    height:80px;
+    width:50px;
+}
+.lower{
+    display:flex;
+    justify-content:space-between;
+}
+.lower_outer{
+    margin:15px;
+}
+.lower_outer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.lower_inner{
+    margin-left:15px;
+}
+#info{
+    text-transform: capitalize;
+}
