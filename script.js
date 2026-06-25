@@ -34,7 +34,7 @@ async function print_info(city){
         if(response.ok==false){
            // as we know in casse of response.status=404 our data or city was not found so we can show that and in all other cases we can just show that something went wrong.
            if(response.status==404){
-                throw new Error("City Not Fount!");
+                throw new Error("City Not Found!");
            }
            else throw new Error("Something Went Wrong!")
        }        
