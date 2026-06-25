@@ -9,3 +9,5 @@
 <h2>How It Works</h2>
 
 <ol> <li>User enters a city name.</li> <li>The application sends a request to the OpenWeather API.</li> <li>Weather data is fetched asynchronously using fetch() and async/await.</li> <li> The app extracts: <ul> <li>Weather condition</li> <li>Description</li> <li>Temperature</li> <li>Humidity</li> <li>Wind speed</li> <li>City and country</li> </ul> </li> <li>The information is dynamically displayed on the page using DOM manipulation.</li> </ol>
+
+#Live Demo Link : - https://mohdshami2005.github.io/weather-explorer/
