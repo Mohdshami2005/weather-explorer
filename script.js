@@ -80,6 +80,7 @@ async function print_info(city){
         let description=data["weather"][0]["description"]; // as inside data we have weather array which contains object at index 0 and one of its key is "description".
         let desc_ele=document.createElement("h1");
         desc_ele.innerText=description;
+        desc_ele.style.textTransform="capitalize";
  
         
         let temp=data["main"]["temp"]-273.15; // as inside data there is a key "main" which contains a n object having key "temp" , but as temp is in kelvin so convert it to celcius;
