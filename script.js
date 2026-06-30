@@ -36,8 +36,8 @@ async function print_info(city){
            if(response.status==404){
                 throw new Error("City Not Found!");
            }
-           else throw new Error("Something Went Wrong!")
-       }        
+           else throw new Error("Something Went Wrong!");
+        }        
         data=await response.json();
         
         // so data is an object inside which we hace various keys and we will use some of them  which are , 
